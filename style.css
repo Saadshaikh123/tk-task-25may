@@ -1,0 +1,56 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:#3f0e40;
+    width: 24%;
+   
+}
+.siderbar{
+    color: aliceblue; 
+    
+}
+#lst{
+    list-style: none;
+}
+.header{
+    display: flex;
+}
+main{
+    display: flex;
+}
+#lstbtn input{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 50px;  
+    border: 1px solid;
+    border-radius: 10px;
+   
+}
+#input{
+
+    width: 200px;
+    height: 20px;
+}
+#rows{
+    display: flex;
+    flex-direction: row;
+}
+#rows img{
+    height: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+#img-name{
+    display: flex;
+    flex-direction: row;
+}
