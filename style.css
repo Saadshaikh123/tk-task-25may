@@ -2,39 +2,73 @@
 /* Please indent properly */
 /* Please use only lower-case letters */
 /* Your webpage should be 100% responsive!!! */
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#aside{
+    cursor: pointer;
+}
 .container{
     display: flex;
     flex-direction: column;
     background-color:#3f0e40;
-    width: 24%;
-   
+    width: 200px;
+    height: 700px;
+}
+#hh2{
+    font-size: 25px;
+    top: 80px;
 }
 .siderbar{
-    color: aliceblue; 
-    
+    color: aliceblue;
+}
+.fa-bell{
+    font-size: 20px;
+    margin: 20px;
+    justify-content: flex-end;
+}
+.sider{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
 }
 #lst{
     list-style: none;
+    display: flex;
+ 
+    flex-direction: column
+}
+#list{
+    text-align: left;
+    color: #b19eb3;
+    font-family: 'Lato', sans-serif;
 }
 .header{
     display: flex;
 }
+.header input{
+    height: 27px;
+}
 main{
     display: flex;
 }
-#lstbtn input{
-    display: flex;
-    align-items: center;
-    width: 1000px;
-    height: 50px;  
-    border: 1px solid;
-    border-radius: 10px;
-   
-}
-#input{
 
-    width: 200px;
-    height: 20px;
+#input p{
+    margin-top: 0px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+#input input{
+    height: 23px;
+    background-color: #260027;
+    border-color: transparent; 
+}
+.fa-search{
+    left: 10px;
 }
 #rows{
     display: flex;
@@ -49,8 +83,63 @@ main{
 }
 a{
     text-decoration: none;
+    color:  #375d9b;
 }
 #img-name{
     display: flex;
     flex-direction: row;
+}
+.last h2{
+    color: #b19eb3;
+    
+}
+.last {
+    display: flex;
+    flex-direction: row; 
+}
+.fa-plus{
+    color: #b19eb3;
+    padding: 27px
+}
+#names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#names p{
+    color: #b19eb3;
+}
+.fa-heart, .fa-circle{
+    color: green;
+    margin:  2px;
+}
+#input p, i{
+    color: #b19eb3
+}
+.listhover:hover{
+    color: aliceblue;
+    background-color: #1164a3;
+}
+#footer-btn, .fa-plus{
+    box-sizing: border-box;
+    height: 0px;
+    width: 0px;
+
+}
+#inp{
+    box-sizing: border-box;
+    height: 7%;
+    width: 80%;
+    padding-top: 8px;
+}
+#lstbtnn{
+    border: none;
+    width: 30px;
+    height: 6%;
+    padding-top: 8px;
+    height: 7%;
+    background-color: transparent;
+}
+.pera p{
+    color: #b19eb3;
 }
